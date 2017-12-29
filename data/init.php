@@ -1,4 +1,7 @@
 <?php
+header('Access-Control-Allow-Origin:http://localhost:3000');
+header('Access-Control-Allow-Credentials:true');
+
 $db_host = '127.0.0.1';
 $db_user = 'root';
 $db_password = '';
